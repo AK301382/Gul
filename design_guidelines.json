@@ -1,0 +1,123 @@
+{
+  "identity": {
+    "brand_name": "Golnavaz",
+    "industry": "Food Manufacturing (Pickles, Herbal Distillates, Vinegars)",
+    "personality": "Authentic, Fresh, Hygienic, Traditional yet Modern",
+    "target_audience": "B2B Distributors and Retail Consumers",
+    "languages": ["Dari", "Pashto", "English"]
+  },
+  "theme": {
+    "mode": "light",
+    "emotional_archetype": "Organic & Earthy",
+    "vibe": "Warm, appetizing, and trustworthy"
+  },
+  "colors": {
+    "primary": {
+      "name": "Amber Gold",
+      "hex": "#F59E0B",
+      "tailwind": "amber-500",
+      "usage": "Primary buttons, highlights, pickle/honey motifs"
+    },
+    "secondary": {
+      "name": "Fresh Basil",
+      "hex": "#10B981",
+      "tailwind": "emerald-500",
+      "usage": "Secondary buttons, herbal accents, success states"
+    },
+    "accent": {
+      "name": "Pomegranate Red",
+      "hex": "#DC2626",
+      "tailwind": "red-600",
+      "usage": "Call to actions, sale badges, error states"
+    },
+    "background": {
+      "main": "#FDFBF7",
+      "tailwind": "bg-stone-50",
+      "card": "#FFFFFF",
+      "tailwind_card": "bg-white"
+    },
+    "text": {
+      "primary": "#1C1917",
+      "tailwind": "text-stone-900",
+      "secondary": "#57534E",
+      "tailwind": "text-stone-600"
+    }
+  },
+  "typography": {
+    "font_family": {
+      "english_heading": "Playfair Display, serif",
+      "english_body": "Lato, sans-serif",
+      "rtl_font": "Vazirmatn, sans-serif"
+    },
+    "import_url": "https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&family=Vazirmatn:wght@400;700&display=swap",
+    "rules": "Use Playfair Display for English Headings. Use Vazirmatn for ALL Dari/Pashto text (Headings and Body). Use Lato for English Body."
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": "Generous padding (py-16 or py-24) between sections",
+    "grid_system": "Grid cols-1 md:cols-3 lg:cols-4 for products",
+    "rtl_strategy": "CRITICAL: Use logical properties (ms-*, me-*, ps-*, pe-*) or 'rtl:' modifiers. Ensure 'dir' attribute on html/body changes dynamically with language selection."
+  },
+  "components": {
+    "buttons": {
+      "style": "Rounded-full or soft rounded-lg",
+      "animation": "Hover: scale-105 transition-transform duration-200"
+    },
+    "cards": {
+      "style": "Clean white cards with subtle shadow-md hover:shadow-xl transition-shadow duration-300",
+      "border": "1px solid stone-100"
+    },
+    "navbar": {
+      "style": "Sticky, glassmorphism (bg-white/90 backdrop-blur-md)",
+      "elements": "Logo, Nav Links, Language Switcher (Dropdown)"
+    }
+  },
+  "images": {
+    "hero_slider": [
+      {
+        "url": "https://images.pexels.com/photos/14804699/pexels-photo-14804699.jpeg",
+        "alt": "Modern food manufacturing facility",
+        "position": "center"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1617854307432-13950e24ba07?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHwxfHxqYXIlMjBvZiUyMHBpY2tsZXMlMjB0cmFkaXRpb25hbCUyMGZvb2R8ZW58MHx8fHwxNzY5NTkzOTUyfDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Traditional pickles in glass jars",
+        "position": "center"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1561907583-564843de311c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwyfHxmcmVzaCUyMGxlbW9uJTIwanVpY2UlMjBib3R0bGV8ZW58MHx8fHwxNzY5NTkzOTU4fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Fresh lemon juice production",
+        "position": "center"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1722931303388-527993417e23?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHw0fHxoZXJiYWwlMjBkaXN0aWxsYXRlJTIwYm90dGxlJTIwZ2xhc3N8ZW58MHx8fHwxNzY5NTkzOTU0fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Herbal distillates in amber bottles",
+        "position": "center"
+      }
+    ],
+    "products": {
+      "pickles": "https://images.unsplash.com/photo-1733714654311-102cb838ab2c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHwyfHxqYXIlMjBvZiUyMHBpY2tsZXMlMjB0cmFkaXRpb25hbCUyMGZvb2R8ZW58MHx8fHwxNzY5NTkzOTUyfDA&ixlib=rb-4.1.0&q=85",
+      "herbal": "https://images.unsplash.com/photo-1571059750558-3d869522f707?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwzfHxoZXJiYWwlMjBkaXN0aWxsYXRlJTIwYm90dGxlJTIwZ2xhc3N8ZW58MHx8fHwxNzY5NTkzOTU0fDA&ixlib=rb-4.1.0&q=85",
+      "vinegar": "https://images.unsplash.com/photo-1762926627703-63d2dc088d04?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwxfHx2aW5lZ2FyJTIwYm90dGxlJTIwZm9vZCUyMGluZ3JlZGllbnR8ZW58MHx8fHwxNzY5NTkzOTU2fDA&ixlib=rb-4.1.0&q=85",
+      "lemon_juice": "https://images.unsplash.com/photo-1739138056344-3c852f4efc28?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwxfHxmcmVzaCUyMGxlbW9uJTIwanVpY2UlMjBib3R0bGV8ZW58MHx8fHwxNzY5NTkzOTU4fDA&ixlib=rb-4.1.0&q=85",
+      "glass_jars": "https://images.unsplash.com/photo-1683234803952-bd650e04dcf3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwzfHxlbXB0eSUyMGdsYXNzJTIwamFycyUyMG1hbnVmYWN0dXJpbmd8ZW58MHx8fHwxNzY5NTkzOTYwfDA&ixlib=rb-4.1.0&q=85"
+    },
+    "about_section": "https://images.pexels.com/photos/5953727/pexels-photo-5953727.jpeg"
+  },
+  "instructions_to_main_agent": [
+    "1. SETUP: Install 'lucide-react' for icons. Add the Google Fonts link to the index.html head.",
+    "2. LANGUAGE CONTEXT: Create a 'LanguageContext' that manages 'lang' (en, fa, ps) and 'dir' (ltr, rtl). Wrap the app in this context.",
+    "3. RTL IMPLEMENTATION: When 'dir' is 'rtl', ensure the layout mirrors correctly. Use 'flex-row-reverse' if needed, or rely on 'dir=rtl' native behavior with logical properties.",
+    "4. TRANSLATIONS: Create a simple translation dictionary object for all static text (Nav items, Headings, Buttons).",
+    "5. ANIMATIONS: Use 'framer-motion' for the Hero Slider and scroll reveal animations for product cards.",
+    "6. FORMS: Use Shadcn UI components for the Contact and Inquiry forms. Style them to match the Amber/Stone theme.",
+    "7. RESPONSIVENESS: Ensure the mobile menu works correctly in both RTL and LTR modes (drawer should slide from the correct side)."
+  ],
+  "universal_guidelines": [
+    "Do not use generic gradients. Use solid, warm colors or subtle textures.",
+    "Ensure high contrast for text readability (WCAG AA).",
+    "Add 'data-testid' to all interactive elements.",
+    "Use 'sonner' for toast notifications.",
+    "Avoid 'Inter' font; strictly follow the typography rules defined above."
+  ]
+}

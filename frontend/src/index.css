@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 40 20% 99%;
+        --foreground: 30 10% 11%;
+        --card: 0 0% 100%;
+        --card-foreground: 30 10% 11%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 30 10% 11%;
+        --primary: 38 92% 50%;
+        --primary-foreground: 0 0% 100%;
+        --secondary: 160 84% 39%;
+        --secondary-foreground: 0 0% 100%;
+        --muted: 30 17% 88%;
+        --muted-foreground: 30 7% 45%;
+        --accent: 0 72% 51%;
+        --accent-foreground: 0 0% 100%;
+        --destructive: 0 84% 60%;
+        --destructive-foreground: 0 0% 100%;
+        --border: 30 17% 88%;
+        --input: 30 17% 88%;
+        --ring: 38 92% 50%;
+        --radius: 0.75rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-stone-50 text-stone-900;
+        font-family: 'Lato', sans-serif;
+    }
+}
+
+/* RTL Support */
+[dir="rtl"] {
+    direction: rtl;
+}
+
+[dir="ltr"] {
+    direction: ltr;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Remove default text-align center from App */
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f5f5f4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f59e0b;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #d97706;
+}
